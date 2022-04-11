@@ -1,0 +1,25 @@
+.aircraftHero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.aircraftHero > * {
+    width: 100%;
+    min-height: 60vh;
+    background-image: url("/assets/departing.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+.flightsHero {
+    padding: 1.25rem 0;
+}
+
+.flightsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    gap: 1.25rem;
+}

@@ -1,0 +1,12 @@
+.submit {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.5em;
+    padding-bottom: 1.35em;
+}
+
+.fullName {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}

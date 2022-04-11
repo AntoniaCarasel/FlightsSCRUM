@@ -1,0 +1,27 @@
+.page--home .flights-container > * > button {
+    font-size: 1.1em;
+    padding: 1.5em 1em;
+    width: 100%;
+}
+
+.page--home .flights-container > * > button svg {
+    width: 1em;
+    height: 1em;
+}
+
+.DayPicker {
+    font-size: 0.85em !important;
+}
+
+.DayPicker-Caption {
+    text-transform: uppercase;
+}
+
+.DayPicker-Caption > div {
+    font-size: 0.95em;
+    font-weight: 200 !important;
+}
+
+.DayPicker-Day--selected {
+    background-color: var(--color-primary) !important;
+}

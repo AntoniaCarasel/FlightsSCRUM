@@ -1,0 +1,33 @@
+[data-evergreen-toaster-container] > * {
+    position: fixed;
+    bottom: 0 !important;
+    top: unset !important;
+}
+
+.offer-arrow {
+    position: relative;
+    margin: 0 10px;
+    height: 25px;
+}
+
+.offer-arrow:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 0;
+    border-bottom: 1px solid #CACFE4;
+}
+
+.offer-arrow:after {
+    content: '';
+    position: absolute;
+    top: 9px;
+    right: 0;
+    width: 9px;
+    height: 9px;
+    border-top: 1px solid #CACFE4;
+    border-right: 1px solid #CACFE4;
+    transform: rotate(45deg);
+}

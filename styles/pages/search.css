@@ -1,0 +1,27 @@
+.page--search main {
+    align-content: flex-start;
+}
+
+.page--search .best-offers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+    margin: 1.5em 0;
+}
+
+.page--search .main {
+    margin-top: 0.5em;
+    padding-top: 1.75em;
+    padding-bottom: 1em;
+    border-top: 1px solid #CDCDCD;;
+    width: 100%;
+}
+
+.page--search .main .container {
+    margin: 0 auto;
+}
+
+.page--search .offers {
+    display: grid;
+    gap: 1.5rem;
+}

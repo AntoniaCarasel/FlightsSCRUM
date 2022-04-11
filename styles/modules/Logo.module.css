@@ -1,0 +1,25 @@
+.logo {
+    display: flex;
+    font-size: 1.75em;
+    font-weight: 500;
+    color: white;
+    align-items: center;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
+
+.logo svg {
+    font-size: 1.2em;
+    margin-right: 0.5rem;
+    margin-top: 4px;
+}
+
+.logoByUNIBUC {
+    font-family: monospace;
+    font-size: 0.75em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    align-self: center;
+}
