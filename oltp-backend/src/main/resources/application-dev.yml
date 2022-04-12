@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@192.168.0.100:1521:xe
+    username: prod
+    password: pass
+  jpa:
+    hibernate:
+      ddl-auto: update
+#    show-sql: false
+#    properties:
+#      javax:
+#        persistence:
+#          schema-generation:
+#            scripts:
+#              action: create
+#              create-target: create.sql
+#              create-source: metadata
+server:
+  port: 8081
