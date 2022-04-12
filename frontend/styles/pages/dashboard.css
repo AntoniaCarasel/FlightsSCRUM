@@ -1,0 +1,40 @@
+.new-flight {
+    padding: 1.5em;
+    border-radius: 0.15em;
+    background: white;
+    box-shadow: 0 0 1px rgba(67, 90, 111, .3), 0 8px 10px -4px rgba(67, 90, 111, .47);
+    margin-top: 1.5em;
+}
+
+.new-flight-content {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+}
+
+.new-flight .airports {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    column-gap: 1.5em;
+}
+.new-flight .airports h3 {
+    margin-top: 1em;
+}
+
+.new-flight .airports .airport-selector > button {
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.new-flight .airports .ant-picker {
+    border-radius: 0.35em;
+}
+
+.new-flight .company {
+    margin: 1.5em 0;
+}
+
+.new-flight .stats-link {
+    display: flex;
+    align-items: center;
+}

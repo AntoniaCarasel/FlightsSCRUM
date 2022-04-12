@@ -1,0 +1,12 @@
+.bestOffer {
+    padding: 1rem;
+    border-radius: 0.15em;
+    background: white;
+    box-shadow: 0 0 1px rgba(67, 90, 111, .3), 0 8px 10px -4px rgba(67, 90, 111, .47);
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.price {
+    font-size: 1.35em;
+    font-weight: bold;
+}

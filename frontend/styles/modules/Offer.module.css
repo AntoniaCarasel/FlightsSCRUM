@@ -1,0 +1,85 @@
+.offer {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    border-radius: 0.15em;
+    background: white;
+    box-shadow: 0 0 1px rgba(67, 90, 111, .3), 0 8px 10px -4px rgba(67, 90, 111, .47);
+    position: relative;
+}
+
+.specialOffer {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.departure,
+.arrival {
+    display: grid;
+    justify-content: space-between;
+    justify-items: center;
+    gap: 0.25em;
+    padding: 1.5em 1em;
+}
+
+.aircraft {
+    display: flex;
+    align-items: center;
+    gap: 0.25em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.aircraft svg {
+    margin-top: 0.15em;
+    font-size: 1.25em;
+}
+
+.time {
+    font-size: 1.65em;
+    font-weight: 500;
+}
+
+.location {
+    font-size: 1.1em;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.arrow > div {
+    width: 100%;
+    max-width: 50%;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 0.5em;
+    border-left: 1px solid #CDCDCD;
+    background: #FAFCEA;
+    padding: 1.5em;
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.company {
+    width: auto !important;
+    position: absolute;
+    font-weight: 400;
+    font-size: 1.1em;
+    font-style: italic;
+    padding-bottom: 0.25em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -100%);
+}

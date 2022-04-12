@@ -1,0 +1,43 @@
+.page--offer .grid {
+    margin-top: 1.5em;
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: 1fr auto;
+    align-items: flex-start;
+}
+
+.page--offer .grid aside,
+.page--offer .grid main .special-offer,
+.page--offer .grid main .services {
+    padding: 1em;
+    border-radius: 0.15em;
+    background: white;
+    box-shadow: 0 0 1px rgba(67, 90, 111, .3), 0 8px 10px -4px rgba(67, 90, 111, .47);
+}
+
+.page--offer .grid aside {
+    min-width: 200px;
+}
+
+.page--offer .grid aside button {
+    margin-top: 1.5em;
+    width: 100%;
+}
+
+.page--offer .grid aside .partial-header,
+.page--offer .grid aside .partial-price {
+    font-weight: 600;
+}
+
+.page--offer .grid main .services {
+    margin-top: 1.5em;
+}
+
+.page--offer .grid main .special-offer > h2,
+.page--offer .grid main .services > h2 {
+    font-weight: 600;
+}
+
+.page--offer .grid main .services .service.active {
+    background: #EFF1FB;
+}
