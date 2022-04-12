@@ -1,0 +1,4 @@
+create tablespace prod datafile '/usr/db/prod.dbf' size 512m autoextend on;
+create user prod identified by "pass" default tablespace prod;
+grant create session, create table, create sequence to prod ;
+alter user prod quota unlimited on prod;
