@@ -1,0 +1,21 @@
+version: '3.9'
+services:
+  oradb:
+    image: oracleinanutshell/oracle-xe-11g:latest
+    networks:
+      - flight-net
+    volumes:
+      - ./scripts:/docker-entrypoint-initdb.d/
+      - dbvol:/usr/db
+  flight-app:
+    image: flightapp
+    depends_on:
+      - oradb
+    networks:
+      - flight-net
+    ports:
+      - "8080:8080"
+networks:
+  flight-net:
+volumes:
+  dbvol:
